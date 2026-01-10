@@ -32,6 +32,8 @@ def example_func(a, b: int, /, c=3, *, d, e=5, **kwargs):
 
 def inspect_function_signature(func):
     """
+    函数 = 可调用对象 + 一堆元数据
+
     打印指定函数的签名信息与各参数的详细属性。
 
     参数：
